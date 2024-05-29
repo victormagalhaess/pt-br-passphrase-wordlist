@@ -2,9 +2,9 @@
 
 People think they are getting smarter by using passphrases. Let's prove them wrong!
 
-This project includes a massive wordlist of phrases (TODO UPDATE) and two hashcat rule files for GPU-based cracking. The rules will create over 1,000 permutations of each phase.
+This project includes a massive Portuguese/Brazil oriented wordlist of phrases (2433732) and two hashcat rule files for GPU-based cracking. The rules will create over 1,000 permutations of each phase, resulting in over two and a half billion password permutations kept entirely on the brazillian context.
 
-This project is adapted from [Initstring project](https://github.com/initstrin                             g/passphrase-wordlist). 
+This project is adapted from [Initstring project](https://github.com/initstring/passphrase-wordlist). 
 
 To use this project, you need:
 
@@ -73,12 +73,12 @@ NVM SEI SÓ SEI QUE FOI ASSIM
 
 # Additional Info
 
-Optionally, some researchers might be interested in the script I use to clean the raw sources into the wordlist [here](/utilities/cleanup.py).
+Optionally, some researchers might be interested in the script used to clean the raw sources into the wordlist [here](/utilities/cleanup.py). It is an adapted version of Initstring's script, found [here](https://github.com/initstring/passphrase-wordlist/blob/master/utilities/cleanup.py)
 
 The cleanup script works like this:
 
 ```
-$ python3.6 cleanup.py infile.txt outfile.txt
+$ python3 cleanup.py infile.txt outfile.txt
 Reading from ./infile.txt: 505 MB
 Wrote to ./outfile.txt: 250 MB
 Elapsed time: 0:02:53.062531
