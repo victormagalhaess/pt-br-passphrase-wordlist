@@ -35,7 +35,7 @@ Some sources are pulled from a static dataset, like a Kaggle upload. Others I ge
 | books.txt | static | Kaggle dataset with titles from over 1000 brazillian books. |
 | soap-operas.txt | static | Kaggle dataset with titles from brazillian soap-operas |
 | football-teams.txt | static | Kaggle dataset with names from brazillian football teams |
-| movies.txt | static | Kaggle dataset with names from brazillian football teams |
+| movies.txt | static | Kaggle dataset with names from movies |
 
 # Hashcat Rules
 
